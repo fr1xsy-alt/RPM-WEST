@@ -65,7 +65,7 @@ DB_PATH = next((p for p in _CANDIDATE_DBS if p.is_file()), _SCRIPT_DIR / DB_NAME
 
 # Сюда можно добавить свой Telegram ID.
 # Добавь сюда свой числовой Telegram ID, например: ADMIN_IDS = {123456789}
-ADMIN_IDS = {8411585010}
+ADMIN_IDS = {}
 
 logging.basicConfig(
     level=logging.INFO,
